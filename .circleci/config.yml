@@ -75,7 +75,7 @@ jobs:
 
       - run:  
           name: Database setup  
-          command: bundle exec rake db:create | bundle exec rake db:schema:load
+          command: cd src | bundle exec rake db:create | bundle exec rake db:schema:load
 
       - run: # 普通のテストとシステムテストを実行する  
           name: Rails Rubocop
