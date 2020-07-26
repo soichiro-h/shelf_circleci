@@ -6,7 +6,7 @@ executors:
   default:  
     working_directory: ~/project  
     docker:  
-      - image: circleci/ruby:2.6.5-node-browsers  
+      - image: circleci/ruby:2.6.3-node-browsers  
         environment:  
           BUNDLER_VERSION: 2.1.4 # <= これ必須！！  
           BUNDLE_JOBS: 3  
@@ -15,11 +15,10 @@ executors:
           PGHOST: 127.0.0.1  
           PGUSER: sample  
           PGPASSWORD: ""  
-      - image: circleci/postgres:11.5-alpine  
-        environment:  
-          POSTGRES_USER: sample  
-          POSTGRES_DB: sample_test  
-          POSTGRES_PASSWORD: ""  
+      - image: circleci/mysql:5.7  
+        environment:
+          - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
+          - MYSQL_ROOT_HOST: '%'
 
 commands:  
   setup:  
@@ -31,7 +30,7 @@ commands:
 
       - run:  
           name: Which bundler? # バージョン確認  
-          command: bundle -v | find / -name Gemfile  
+          command: bundle -v
  
       - restore_cache: # キャッシュを読み込む  
           keys:  
