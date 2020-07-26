@@ -1,91 +1,66 @@
-#bruno version
-
-version: 2.1 # バージョン指定  
-
-executors:  
-  default:  
-    working_directory: ~/project  
-    docker:  
-      - image: circleci/ruby:2.6.3-node-browsers  
-        environment:  
-          BUNDLER_VERSION: 2.1.4 # <= これ必須！！  
-          BUNDLE_JOBS: 3  
-          BUNDLE_RETRY: 3  
-          BUNDLE_PATH: vendor/bundle  
-          PGHOST: 127.0.0.1  
-          PGUSER: sample  
-          PGPASSWORD: ""  
-      - image: circleci/mysql:5.7  
+version: 2.1
+jobs:
+  build:
+    parallelism: 3
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
         environment:
-          - MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
-          - MYSQL_ROOT_HOST: '%'
+          BUNDLE_JOBS: 3
+          BUNDLE_RETRY: 3
+          BUNDLE_PATH: vendor/bundle
+          RAILS_ENV: test
+      - image: circleci/mysql:5.7
+        environment:
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+          MYSQL_ROOT_PASSWORD: ''
+          MYSQL_DATABASE: shelf_app_test
+          MYSQL_HOST: 127.0.0.1
+          MYSQL_ROOT_HOST: '%'
+          MYSQL_USER: root
+    steps:
+      - checkout
 
-commands:  
-  setup:  
-    steps:  
-      - checkout  
-      - run:  
-          name: Update bundler # bundlerのバージョン２へのアップデート  
-          command: gem update bundler  
-
-      - run:  
-          name: Which bundler? # バージョン確認  
+      - run:
+          name: Which bundler?
           command: bundle -v
- 
-      - restore_cache: # キャッシュを読み込む  
-          keys:  
-            - gem-cache-v1-{{ checksum "Gemfile.lock" }}  
-            - gem-cache-v1-  
 
-      - run:  
-          name: Bundle Install  
+      - restore_cache:
+          keys:
+            - rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
+            - rails-demo-bundle-v2-
+
+      - run:
+          name: Bundle Install
           command: bundle config set path 'vendor/bundle' || bundle config set deployment 'true'
 
-      - save_cache: # キャッシュを保存する  
-          key: gem-cache-v1-{{ checksum "Gemfile.lock" }}  
-          paths:  
-            - vendor/bundle  
+      - save_cache:
+          key: rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
 
-      # 以下はRails6でWebpackerを使う場合は必須   
-      #- restore_cache:  
-      #    keys:  
-      #      - yarn-cache-v1-{{ checksum "yarn.lock" }}  
-      #      - yarn-cache-v1-  
+      - run:
+          name: Yarn Install
+          command: yarn install --cache-folder ~/.cache/yarn
 
-      #- run:  
-      #    name: Yarn Install  
-      #    command: yarn install --cache-folder ~/.cache/yarn  
+      - save_cache:
+          key: rails-demo-yarn-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
 
-      #- save_cache:  
-      #    key: yarn-cache-v1-{{ checksum "yarn.lock" }}  
-      #    paths:  
-      #      - ~/.cache/yarn  
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://127.0.0.1:3306 -timeout 120s
 
-jobs:  
-  test:  
-    executor: default  
-    environment:  
-      RAILS_ENV: test  
-    steps:  
-      - checkout  
-      - setup  
-      #- run:  
-      #    name: Wait for DB  
-      #    command: dockerize -wait tcp://localhost:5432 -timeout 1m  
+      - run: bundle exec rake db:create
+      - run: bundle exec rake db:schema:load
 
-      - run:  
-          name: Database setup  
-          command: cd src | bundle exec rake db:create | bundle exec rake db:schema:load
-
-      - run: # 普通のテストとシステムテストを実行する  
-          name: Rails Rubocop
-          command: bundle exec rubocop | rspec
-            #bin/rails test  
-            #bin/rails test:system  
-
-
-
-workflows:  
-  build_and_test:  
-    jobs:  
-      - test  
+      - run:
+          name: Run rspec in parallel
+          command: |
+            bundle exec rspec --profile 10 \
+                              --format RspecJunitFormatter \
+                              --out test_results/rspec.xml \
+                              --format progress \
+                              $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
+      - store_test_results:
+          path: test_results

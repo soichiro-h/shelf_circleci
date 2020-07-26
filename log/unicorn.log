@@ -1,0 +1,282 @@
+I, [2020-07-24T21:42:46.197543 #1]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-24T21:42:59.050520 #1]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-24T21:42:59.055807 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=19
+I, [2020-07-24T21:42:59.128436 #16]  INFO -- : worker=0 ready
+I, [2020-07-24T21:42:59.136424 #1]  INFO -- : master process ready
+I, [2020-07-24T21:42:59.149942 #17]  INFO -- : worker=1 ready
+I, [2020-07-24T21:47:14.730391 #1]  INFO -- : reaped #<Process::Status: pid 16 exit 0> worker=0
+I, [2020-07-24T21:47:14.735024 #1]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=1
+I, [2020-07-24T21:47:14.737370 #1]  INFO -- : master complete
+I, [2020-07-24T21:52:05.788779 #1]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-24T21:52:18.053432 #1]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-24T21:52:18.058286 #1]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-24T21:52:18.113232 #16]  INFO -- : worker=0 ready
+I, [2020-07-24T21:52:18.116161 #1]  INFO -- : master process ready
+I, [2020-07-24T21:52:18.122389 #17]  INFO -- : worker=1 ready
+I, [2020-07-24T22:18:13.092613 #1]  INFO -- : reaped #<Process::Status: pid 16 exit 0> worker=0
+I, [2020-07-24T22:18:13.101774 #1]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=1
+I, [2020-07-24T22:18:13.106620 #1]  INFO -- : master complete
+I, [2020-07-24T22:18:46.995359 #1]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-24T22:18:59.342343 #1]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-24T22:18:59.345535 #1]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-24T22:18:59.412237 #16]  INFO -- : worker=0 ready
+I, [2020-07-24T22:18:59.419969 #1]  INFO -- : master process ready
+I, [2020-07-24T22:18:59.430385 #17]  INFO -- : worker=1 ready
+I, [2020-07-24T22:21:11.729353 #1]  INFO -- : reaped #<Process::Status: pid 16 exit 0> worker=0
+I, [2020-07-24T22:21:11.739180 #1]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=1
+I, [2020-07-24T22:21:11.741010 #1]  INFO -- : master complete
+I, [2020-07-24T23:16:21.514056 #1]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-24T23:16:47.158101 #1]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-24T23:16:47.168312 #1]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-24T23:16:47.622296 #16]  INFO -- : worker=0 ready
+I, [2020-07-24T23:16:47.630864 #1]  INFO -- : master process ready
+I, [2020-07-24T23:16:47.643171 #17]  INFO -- : worker=1 ready
+I, [2020-07-24T23:25:48.754185 #1]  INFO -- : reaped #<Process::Status: pid 16 exit 0> worker=0
+I, [2020-07-24T23:25:48.777524 #1]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=1
+I, [2020-07-24T23:25:48.781018 #1]  INFO -- : master complete
+I, [2020-07-25T00:01:04.362883 #14]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T00:01:17.806992 #14]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T00:01:17.816418 #14]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-25T00:01:17.946411 #25]  INFO -- : worker=0 ready
+I, [2020-07-25T00:01:17.951814 #14]  INFO -- : master process ready
+I, [2020-07-25T00:01:17.968819 #26]  INFO -- : worker=1 ready
+I, [2020-07-25T00:34:42.999426 #8]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T00:35:03.400560 #8]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T00:35:03.408766 #8]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=19
+I, [2020-07-25T00:35:03.581856 #19]  INFO -- : worker=0 ready
+I, [2020-07-25T00:35:03.585293 #8]  INFO -- : master process ready
+I, [2020-07-25T00:35:03.593916 #20]  INFO -- : worker=1 ready
+I, [2020-07-25T00:40:20.814564 #6]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T00:40:33.927297 #6]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T00:40:33.931487 #6]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=18
+I, [2020-07-25T00:40:33.937634 #6]  INFO -- : listening on addr=0.0.0.0:3000 fd=19
+I, [2020-07-25T00:40:34.008172 #17]  INFO -- : worker=0 ready
+I, [2020-07-25T00:40:34.012346 #6]  INFO -- : master process ready
+I, [2020-07-25T00:40:34.019163 #18]  INFO -- : worker=1 ready
+I, [2020-07-25T00:50:38.584130 #6]  INFO -- : reaped #<Process::Status: pid 17 exit 0> worker=0
+I, [2020-07-25T00:50:38.592033 #6]  INFO -- : reaped #<Process::Status: pid 18 exit 0> worker=1
+I, [2020-07-25T00:50:38.596548 #6]  INFO -- : master complete
+I, [2020-07-25T00:52:44.323337 #19]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T00:52:54.394011 #19]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T00:52:54.402170 #19]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=17
+I, [2020-07-25T00:52:54.404834 #19]  INFO -- : listening on addr=0.0.0.0:3000 fd=19
+I, [2020-07-25T00:52:54.486259 #30]  INFO -- : worker=0 ready
+I, [2020-07-25T00:52:54.489953 #19]  INFO -- : master process ready
+I, [2020-07-25T00:52:54.494863 #31]  INFO -- : worker=1 ready
+I, [2020-07-25T00:59:44.873381 #19]  INFO -- : reaped #<Process::Status: pid 30 exit 0> worker=0
+I, [2020-07-25T00:59:44.912490 #19]  INFO -- : reaped #<Process::Status: pid 31 exit 0> worker=1
+I, [2020-07-25T00:59:44.917365 #19]  INFO -- : master complete
+I, [2020-07-25T01:00:31.373956 #34]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+config.eager_load is set to nil. Please update your config/environments/*.rb files accordingly:
+
+  * development - set it to false
+  * test - set it to false (unless you use a tool that preloads your test environment)
+  * production - set it to true
+
+DEPRECATION WARNING: #fog_provider is deprecated and has no effect (called from block in <top (required)> at /app/config/initializers/carrierwave.rb:8)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /app/config/initializers/new_framework_defaults.rb:25)
+/usr/local/bundle/gems/devise-4.7.2/lib/devise/rails/routes.rb:500:in `raise_no_secret_key': Devise.secret_key was not set. Please add the following to your Devise initializer: (RuntimeError)
+
+  config.secret_key = 'c6ed30c43eca1fd4ffbfcc13dc47f9717e5f76d7e50239d2d45530e2f08556298050a9c479e9d7cc646e597580e82378d0d38e4b8bf1420650520c4ca5ceb650'
+
+Please ensure you restarted your application after installing Devise or setting the key.
+	from /usr/local/bundle/gems/devise-4.7.2/lib/devise/rails/routes.rb:228:in `devise_for'
+	from /app/config/routes.rb:30:in `block in <top (required)>'
+	from /usr/local/bundle/gems/actionpack-5.1.6/lib/action_dispatch/routing/route_set.rb:436:in `instance_exec'
+	from /usr/local/bundle/gems/actionpack-5.1.6/lib/action_dispatch/routing/route_set.rb:436:in `eval_block'
+	from /usr/local/bundle/gems/actionpack-5.1.6/lib/action_dispatch/routing/route_set.rb:418:in `draw'
+	from /app/config/routes.rb:3:in `<top (required)>'
+	from /usr/local/bundle/gems/activesupport-5.1.6/lib/active_support/dependencies.rb:286:in `load'
+	from /usr/local/bundle/gems/activesupport-5.1.6/lib/active_support/dependencies.rb:286:in `block in load'
+	from /usr/local/bundle/gems/activesupport-5.1.6/lib/active_support/dependencies.rb:258:in `load_dependency'
+	from /usr/local/bundle/gems/activesupport-5.1.6/lib/active_support/dependencies.rb:286:in `load'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:55:in `block in load_paths'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:55:in `each'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:55:in `load_paths'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:18:in `reload!'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:41:in `block in updater'
+	from /usr/local/bundle/gems/activesupport-5.1.6/lib/active_support/file_update_checker.rb:81:in `execute'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:42:in `updater'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/routes_reloader.rb:31:in `execute_if_updated'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application/finisher.rb:128:in `block in <module:Finisher>'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/initializable.rb:30:in `instance_exec'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/initializable.rb:30:in `run'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/initializable.rb:59:in `block in run_initializers'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:228:in `block in tsort_each'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:347:in `each'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:347:in `call'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:226:in `tsort_each'
+	from /usr/local/lib/ruby/2.6.0/tsort.rb:205:in `tsort_each'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/initializable.rb:58:in `run_initializers'
+	from /usr/local/bundle/gems/railties-5.1.6/lib/rails/application.rb:353:in `initialize!'
+	from /app/config/environment.rb:7:in `<top (required)>'
+	from config.ru:6:in `require_relative'
+	from config.ru:6:in `block in <main>'
+	from /usr/local/bundle/gems/rack-2.2.3/lib/rack/builder.rb:125:in `instance_eval'
+	from /usr/local/bundle/gems/rack-2.2.3/lib/rack/builder.rb:125:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /usr/local/bundle/gems/unicorn-5.5.5/lib/unicorn.rb:54:in `eval'
+	from /usr/local/bundle/gems/unicorn-5.5.5/lib/unicorn.rb:54:in `block in builder'
+	from /usr/local/bundle/gems/unicorn-5.5.5/bin/unicorn_rails:139:in `block in rails_builder'
+	from /usr/local/bundle/gems/unicorn-5.5.5/lib/unicorn/http_server.rb:795:in `build_app!'
+	from /usr/local/bundle/gems/unicorn-5.5.5/lib/unicorn/http_server.rb:141:in `start'
+	from /usr/local/bundle/gems/unicorn-5.5.5/bin/unicorn_rails:209:in `<top (required)>'
+	from /usr/local/bundle/bin/unicorn_rails:23:in `load'
+	from /usr/local/bundle/bin/unicorn_rails:23:in `<main>'
+I, [2020-07-25T01:01:01.158661 #39]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T01:01:17.852021 #39]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T01:01:17.860288 #39]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=19
+I, [2020-07-25T01:01:17.862225 #39]  INFO -- : listening on addr=0.0.0.0:3000 fd=18
+I, [2020-07-25T01:01:17.990726 #50]  INFO -- : worker=0 ready
+I, [2020-07-25T01:01:17.995742 #39]  INFO -- : master process ready
+I, [2020-07-25T01:01:18.003040 #51]  INFO -- : worker=1 ready
+I, [2020-07-25T01:39:28.631334 #8]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T01:39:43.359758 #8]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=19
+I, [2020-07-25T01:39:43.363093 #8]  INFO -- : listening on addr=0.0.0.0:3000 fd=20
+I, [2020-07-25T01:39:43.526411 #19]  INFO -- : worker=0 ready
+I, [2020-07-25T01:39:43.530584 #8]  INFO -- : master process ready
+I, [2020-07-25T01:39:43.539839 #20]  INFO -- : worker=1 ready
+I, [2020-07-25T01:55:01.030878 #1]  INFO -- : Refreshing Gem list
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/usr/local/bundle/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/usr/local/bundle/gems/bootstrap-4.4.1/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+I, [2020-07-25T01:55:54.795618 #1]  INFO -- : unlinking existing socket=/app/tmp/sockets/.unicorn.sock
+I, [2020-07-25T01:55:54.802709 #1]  INFO -- : listening on addr=/app/tmp/sockets/.unicorn.sock fd=17
+I, [2020-07-25T01:55:54.824628 #1]  INFO -- : listening on addr=0.0.0.0:3000 fd=18
+I, [2020-07-25T01:55:55.391528 #1]  INFO -- : master process ready
+I, [2020-07-25T01:55:55.410203 #17]  INFO -- : worker=1 ready
+I, [2020-07-25T01:55:55.433079 #16]  INFO -- : worker=0 ready
+E, [2020-07-25T01:56:30.416384 #1] ERROR -- : worker=1 PID:17 timeout (31s > 30s), killing
+E, [2020-07-25T01:56:30.689660 #1] ERROR -- : reaped #<Process::Status: pid 17 SIGKILL (signal 9)> worker=1
+I, [2020-07-25T01:56:30.711516 #32]  INFO -- : worker=1 ready
+E, [2020-07-25T01:56:42.684972 #1] ERROR -- : worker=0 PID:16 timeout (31s > 30s), killing
+E, [2020-07-25T01:56:42.741165 #1] ERROR -- : reaped #<Process::Status: pid 16 SIGKILL (signal 9)> worker=0
+I, [2020-07-25T01:56:42.761754 #40]  INFO -- : worker=0 ready
+E, [2020-07-25T01:57:01.772013 #1] ERROR -- : worker=1 PID:32 timeout (31s > 30s), killing
+E, [2020-07-25T01:57:01.810227 #1] ERROR -- : reaped #<Process::Status: pid 32 SIGKILL (signal 9)> worker=1
+I, [2020-07-25T01:57:01.837895 #41]  INFO -- : worker=1 ready
+E, [2020-07-25T01:57:32.839598 #1] ERROR -- : worker=0 PID:40 timeout (31s > 30s), killing
+E, [2020-07-25T01:57:33.246423 #1] ERROR -- : reaped #<Process::Status: pid 40 SIGKILL (signal 9)> worker=0
+I, [2020-07-25T01:57:33.341401 #49]  INFO -- : worker=0 ready
+172.21.0.1 - - [25/Jul/2020:01:58:00 +0000] "GET / HTTP/1.1" 200 - 27.0356
+172.21.0.1 - - [25/Jul/2020:01:58:04 +0000] "GET /assets/favicon-ed31e1b711baf24925026314b7484f84805749604faa56e8647aece0275fa99d.ico HTTP/1.1" 200 163079 1.1076
+172.21.0.1 - - [25/Jul/2020:01:58:28 +0000] "GET /profile HTTP/1.1" 200 - 2.7181
+172.21.0.1 - - [25/Jul/2020:01:58:39 +0000] "GET /books HTTP/1.1" 200 - 2.3850
+172.21.0.1 - - [25/Jul/2020:01:58:40 +0000] "GET /uploads/book/image/3/9784309226712.jpg HTTP/1.1" 304 - 0.1508
+172.21.0.1 - - [25/Jul/2020:01:58:40 +0000] "GET /uploads/book/image/4/9784309226729.jpg HTTP/1.1" 304 - 0.0129
+172.21.0.1 - - [25/Jul/2020:01:58:40 +0000] "GET /uploads/book/image/2/9784309227368.jpg HTTP/1.1" 304 - 0.0066
+172.21.0.1 - - [25/Jul/2020:01:58:40 +0000] "GET /uploads/book/image/1/9784309227375.jpg HTTP/1.1" 304 - 0.0124
+172.21.0.1 - - [25/Jul/2020:01:58:45 +0000] "GET /books HTTP/1.1" 200 - 11.9553
+172.21.0.1 - - [25/Jul/2020:02:00:11 +0000] "GET /details/3 HTTP/1.1" 200 - 2.6108
+172.21.0.1 - - [25/Jul/2020:02:00:26 +0000] "GET /books/3/edit HTTP/1.1" 200 - 8.6824
+E, [2020-07-25T02:00:49.271532 #1] ERROR -- : worker=0 PID:49 timeout (31s > 30s), killing
+E, [2020-07-25T02:00:49.652935 #1] ERROR -- : reaped #<Process::Status: pid 49 SIGKILL (signal 9)> worker=0
+I, [2020-07-25T02:00:49.721099 #64]  INFO -- : worker=0 ready
+172.21.0.1 - - [25/Jul/2020:02:01:12 +0000] "PATCH /books/3 HTTP/1.1" 302 - 0.8278
+172.21.0.1 - - [25/Jul/2020:02:01:14 +0000] "GET /details/3 HTTP/1.1" 200 - 1.9160
+172.21.0.1 - - [25/Jul/2020:02:01:16 +0000] "PATCH /books/3 HTTP/1.1" 302 - 6.6602
+172.21.0.1 - - [25/Jul/2020:16:50:52 +0000] "GET / HTTP/1.1" 200 - 5.3792
+172.21.0.1 - - [25/Jul/2020:16:51:03 +0000] "GET / HTTP/1.1" 200 - 20.8137
+172.21.0.1 - - [25/Jul/2020:16:51:28 +0000] "GET /profile HTTP/1.1" 200 - 5.7727
+172.21.0.1 - - [25/Jul/2020:16:51:37 +0000] "GET /books HTTP/1.1" 200 - 4.6393
+172.21.0.1 - - [25/Jul/2020:16:51:37 +0000] "GET /uploads/book/image/3/9784309226712.jpg HTTP/1.1" 304 - 0.0142
+172.21.0.1 - - [25/Jul/2020:16:51:37 +0000] "GET /uploads/book/image/1/9784309227375.jpg HTTP/1.1" 304 - 0.0044
+172.21.0.1 - - [25/Jul/2020:16:51:37 +0000] "GET /uploads/book/image/2/9784309227368.jpg HTTP/1.1" 304 - 0.0322
+172.21.0.1 - - [25/Jul/2020:16:51:37 +0000] "GET /uploads/book/image/4/9784309226729.jpg HTTP/1.1" 304 - 0.1506
+172.21.0.1 - - [26/Jul/2020:15:26:54 +0000] "GET / HTTP/1.0" 200 12118 6.2319
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/custom.self-5e1cffa2baccdda02b5e1d267454bead3b0b0bd07a3372c80f4423fe8b38d551.css?body=1 HTTP/1.0" 200 446466 0.6397
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.1759
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/static.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.1476
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/books.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 1.1245
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/responsive.self-95886a93a8e098631672f6dbbc7669a8ad148ba5785d2a11b87c8fd9da6414e8.css?body=1 HTTP/1.0" 200 5328 0.1651
+172.21.0.1 - - [26/Jul/2020:15:26:55 +0000] "GET /assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.2014
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/tags.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.3316
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1 HTTP/1.0" 200 703 0.3300
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1 HTTP/1.0" 200 21600 0.1365
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0827
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1 HTTP/1.0" 200 293431 0.4629
+172.21.0.1 - - [26/Jul/2020:15:26:56 +0000] "GET /assets/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 200 20539 0.3333
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1 HTTP/1.0" 200 291 0.4162
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1680
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/tags.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1149
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/static.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1959
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1132
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/popper.self-55bd1408b0e4ff3edf21524b78fbe2266615c8015ce0e5f0828089b1de27d63c.js?body=1 HTTP/1.0" 200 21219 0.2356
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/bootstrap.self-8c6083113d56707c8009a2674281cf8aa2af7efbbfebcc5b7a75721230cd2d8b.js?body=1 HTTP/1.0" 200 135042 0.1926
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/bootstrap/util.self-f10a2d4eac0ee99fa400f029db49af1fd010c576cac4e650b85d1202d2c4f424.js?body=1 HTTP/1.0" 200 6553 0.1421
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/bootstrap/tab.self-5a65c217abd0ec02ab6153a25f079f7c39ffdae8854c8645ece90a9ba271d179.js?body=1 HTTP/1.0" 200 8142 0.1658
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/bootstrap/toast.self-7a6f8c5f1cd1aa8a2a5dee63a4c5571cb4e3db9cebe8948b9bdee19c6a5331eb.js?body=1 HTTP/1.0" 200 8257 0.1524
+172.21.0.1 - - [26/Jul/2020:15:26:57 +0000] "GET /assets/bootstrap/collapse.self-a223ac0d7dfbd7366f542e625b31c27661ba469855c9280510dda88fd855dab7.js?body=1 HTTP/1.0" 200 13633 0.2092
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/button.self-2ff3013d73651d06fe4d9d77f5f19a85c2d703518de59fa0cc98abc0cd2c53cc.js?body=1 HTTP/1.0" 200 7539 0.1760
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/popover.self-1c01706b4b1c4707227c7f728c941f117b0ee282a8ee7b9a9cc3df60d8f99e44.js?body=1 HTTP/1.0" 200 7844 0.0641
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/tooltip.self-e7fbc6a07cca14de58e464cb5c7d1578c1836271c3996133399b49c6a70de0de.js?body=1 HTTP/1.0" 200 27176 0.1464
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/carousel.self-ad595ee862ecb2733888865b4195b18f0f24b879eb929c5e2ff5485834402913.js?body=1 HTTP/1.0" 200 20650 0.0997
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/scrollspy.self-b068ebef629c548014781670d908df59766351efaaaad98f515d20e2407fc9e0.js?body=1 HTTP/1.0" 200 12086 0.1516
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/modal.self-be7def30193c37dfea593846cb69379e6136046e98137891c7df475375c1937a.js?body=1 HTTP/1.0" 200 21265 0.1111
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/dropdown.self-a305b7455fdf72315b2d90715e9304efa43d0f68be07ccfce594f38a6cde7610.js?body=1 HTTP/1.0" 200 18718 0.1773
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap/alert.self-00099e4b1b00919455049c43f1e486532228d7908a6898503351f1c824b2412c.js?body=1 HTTP/1.0" 200 5487 0.1215
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1 HTTP/1.0" 200 12 0.2227
+172.21.0.1 - - [26/Jul/2020:15:26:58 +0000] "GET /assets/application.self-263cef4499c350e6608580b2e7531ba80d20596dfcffffdd22ca8bee0ee7ef00.js?body=1 HTTP/1.0" 200 13392 0.3559
+172.21.0.1 - - [26/Jul/2020:15:27:28 +0000] "GET /login HTTP/1.0" 200 8631 5.8710
