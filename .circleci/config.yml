@@ -31,8 +31,8 @@ commands:
 
       - run:  
           name: Which bundler? # バージョン確認  
-          command: bundle -v  
-
+          command: bundle -v | find / -name Gemfile  
+ 
       - restore_cache: # キャッシュを読み込む  
           keys:  
             - gem-cache-v1-{{ checksum "Gemfile.lock" }}  
