@@ -1,3 +1,5 @@
+#bruno version
+
 version: 2.1 # バージョン指定  
 
 executors:  
