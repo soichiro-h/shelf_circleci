@@ -1,66 +1,7 @@
-version: 2.1
+version: 2
 jobs:
   build:
-    parallelism: 3
     docker:
       - image: circleci/ruby:2.6.3-node-browsers
-        environment:
-          BUNDLE_JOBS: 3
-          BUNDLE_RETRY: 3
-          BUNDLE_PATH: vendor/bundle
-          RAILS_ENV: test
-      - image: circleci/mysql:5.7
-        environment:
-          MYSQL_ALLOW_EMPTY_PASSWORD: true
-          MYSQL_ROOT_PASSWORD: ''
-          MYSQL_DATABASE: shelf_app_test
-          MYSQL_HOST: 127.0.0.1
-          MYSQL_ROOT_HOST: '%'
-          MYSQL_USER: root
     steps:
-      - checkout
-
-      - run:
-          name: Which bundler?
-          command: bundle -v
-
-      - restore_cache:
-          keys:
-            - rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
-            - rails-demo-bundle-v2-
-
-      - run:
-          name: Bundle Install
-          command: bundle config set path 'vendor/bundle' || bundle config set deployment 'true'
-
-      - save_cache:
-          key: rails-demo-bundle-v2-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-
-      - run:
-          name: Yarn Install
-          command: yarn install --cache-folder ~/.cache/yarn
-
-      - save_cache:
-          key: rails-demo-yarn-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
-
-      - run:
-          name: Wait for DB
-          command: dockerize -wait tcp://127.0.0.1:3306 -timeout 120s
-      - run: bundle install --path vendor/cache
-      - run: bundle exec rake db:create
-      - run: bundle exec rake db:schema:load
-
-      - run:
-          name: Run rspec in parallel
-          command: |
-            bundle exec rspec --profile 10 \
-                              --format RspecJunitFormatter \
-                              --out test_results/rspec.xml \
-                              --format progress \
-                              $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
-      - store_test_results:
-          path: test_results
+      - run: echo "hello world"
